@@ -1,3 +1,3 @@
-# Dot Files
+# DotFiles
 
-Dot files I use.
+Dot files I use for my system.
