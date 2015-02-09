@@ -1,1 +1,1 @@
-set ruler number
+set ruler number spell
