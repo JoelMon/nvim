@@ -1,4 +1,4 @@
-set ruler number spelr
+set ruler number spell
 
 "=============== Custom Abbreviation ==================
 
