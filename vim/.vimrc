@@ -21,7 +21,7 @@ syntax enable
 
 "=============== Custom Key Mapping ===================
 
-:<Leader>R !python3 ~/Development/pyTalkManager/pyTalkManager/main.py
+<Leader>R !python3 ~/Development/pyTalkManager/pyTalkManager/main.py
 
 
 
