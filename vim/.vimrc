@@ -11,14 +11,14 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
-Plugin 'gmarik/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/nerdtree'
-Plugin 'bling/vim-airline'
+Bundle 'gmarik/Vundle.vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'scrooloose/nerdtree'
+Bundle 'bling/vim-airline'
 
 "==============THEMES==================
-Plugin 'sjl/badwolf'
-Plugin 'tpope/vim-vividchalk'
+Bundle 'sjl/badwolf'
+Bundle 'tpope/vim-vividchalk'
 
 
 " All of your Plugins must be added before the following line
@@ -41,6 +41,10 @@ filetype plugin indent on    " required
 "==============================================================================
 
 set ruler number 
+colorscheme evening
+
+" Configuration for airline
+echo 'let g:airline_powerline_fonts = 1' >> ~/.vimrc
 
 "=============== Custom Abbreviation ==================
 
