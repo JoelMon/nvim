@@ -20,6 +20,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' }
 " Unmanaged plugin (manually installed and updated)
 Plug '~/my-prototype-plugin'
 
+Plug 'bling/vim-airline'
+
 call plug#end()
 
 "======================================================
