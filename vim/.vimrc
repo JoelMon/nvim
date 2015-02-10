@@ -26,11 +26,8 @@ call plug#end()
 set ruler number 
 set laststatus=2
 
-colorscheme evening
+colorscheme desert
 syntax enable
-
-" Configuration for airline
-" echo 'let g:airline_powerline_fonts = 1' >> ~/.vimrc
 
 "=============== Custom Abbreviation ==================
 
