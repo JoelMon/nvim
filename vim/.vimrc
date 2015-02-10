@@ -19,6 +19,12 @@ set laststatus=2
 colorscheme desert
 syntax enable
 
+"=============== Custom Key Mapping ===================
+
+:<Leader>R !python3 ~/Development/pyTalkManager/pyTalkManager/main.py
+
+
+
 "=============== Custom Abbreviation ==================
  
 iabbre myname Joel Montes de Oca
