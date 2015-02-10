@@ -44,7 +44,7 @@ set ruler number
 colorscheme evening
 
 " Configuration for airline
-echo 'let g:airline_powerline_fonts = 1' >> ~/.vimrc
+" echo 'let g:airline_powerline_fonts = 1' >> ~/.vimrc
 
 "=============== Custom Abbreviation ==================
 
