@@ -1,44 +1,28 @@
-"====================== Vundle Config ==========================
+call plug#begin('~/.vim/plugged')
 
-set nocompatible              " be iMproved, required
-filetype off                  " required
+" Make sure you use single quotes
+Plug 'junegunn/seoul256.vim'
+Plug 'junegunn/vim-easy-align'
 
-" set the runtime path to include Vundle and initialize
+" On-demand loading
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" Using git URL
+Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+" Plugin options
+Plug 'nsf/gocode', { 'tag': 'go.weekly.2012-03-13', 'rtp': 'vim' }
 
-Bundle 'gmarik/Vundle.vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'scrooloose/nerdtree'
-Bundle 'bling/vim-airline'
+" Plugin outside ~/.vim/plugged with post-update hook
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' }
 
-"==============THEMES==================
-Bundle 'sjl/badwolf'
-Bundle 'tpope/vim-vividchalk'
+" Unmanaged plugin (manually installed and updated)
+Plug '~/my-prototype-plugin'
 
+call plug#end()
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
-
-
-"==============================================================================
+"======================================================
 
 set ruler number 
 set laststatus=2
