@@ -21,9 +21,6 @@ syntax enable
 
 "=============== Custom Key Mapping ===================
 
-:map <Leader>R !python3 ~/Development/pyTalkManager/pyTalkManager/main.py
-
-
 
 "=============== Custom Abbreviation ==================
  
