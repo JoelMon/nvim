@@ -16,7 +16,7 @@ call plug#end()
 set ruler number 
 set laststatus=2
 
-colorscheme desert
+colorscheme seoul256 
 syntax enable
 
 "=============== Custom Key Mapping ===================
