@@ -9,6 +9,10 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 Plug 'bling/vim-airline'
 
+Plug 'davidhalter/jedi-vim'
+
+Plug 'plasticboy/vim-markdown'
+
 call plug#end()
 
 "======================================================
