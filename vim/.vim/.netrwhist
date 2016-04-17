@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/user/Documents/Books/Pratical Vim/Pratical Vim - Source Code'
+let g:netrw_dirhist_2='/home/user/Documents/Books/Pratical Vim/Pratical Vim - Source Code/jumps'
+let g:netrw_dirhist_3='/home/user/Documents/pyTalkManager.wiki'
+let g:netrw_dirhist_4='/home/user/Documents/pyTalkManager.wiki/UML'
+let g:netrw_dirhist_5='/home/user/Documents/pyTalkManager.wiki'
+let g:netrw_dirhist_6='/home/user/Documents/PTC'
+let g:netrw_dirhist_7='/home/user/Documents/pyTalkManager.wiki'
+let g:netrw_dirhist_8='/home/user/Documents/PTC'
+let g:netrw_dirhist_9='/home/user/Development/pyTalkManager/pyTalkManager'
